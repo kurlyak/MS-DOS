@@ -1,6 +1,6 @@
 @echo off
 
-SET MYPATH=C:\MS-DOS-2.0-FLOPPY-720K
+SET MYPATH=C:\MS-DOS-2.0-Olivetti\
 
 echo Remove attributes from system files
 attrib -h -r -s %MYPATH%\MSDOS2_SYS\IBMBIO.COM

@@ -12,7 +12,7 @@ The folder contains the decompiled source code of the boot sector for the 720KB 
 
 The dosboot.asm file contains the decompiled MS DOS 2.0 boot sector for a 720KB floppy disk. To compile the dosboot.asm source code, you need the NASM assembly language compiler nasm.exe.
 
-The dosboot.bin file contains the original boot sector extracted from the Microsoft MS-DOS 2.0 (Olivetti) 360KB floppy boot disk.
+The ORIGINAL_BOOT\dosboot.bin file contains the original boot sector extracted from the Microsoft MS-DOS 2.0 (Olivetti) 360KB floppy boot disk.
 
 The build_msdos2_img.bat file contains commands for building an IMG image. To create an IMG image, you will need the NASM compiler nasm.exe, the floppy for creation disk images imdisk.exe, and any HEX editor. You can run the created IMG image in VirtualBox.
 
