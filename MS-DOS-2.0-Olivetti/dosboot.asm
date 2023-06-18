@@ -117,7 +117,7 @@ calculate_start_sector:
 
 	;IBMBIO.COM for DOS should be loaded at 70h:0
 	mov ax, 70h 		;location 0h:0700h is for read IBMBIO.COM for MS-DOS
-	mov es, ax
+	mov es, ax 			;0h:0700h is DOS interface to ROM I/O routines
 	mov ds, ax 			;that is unnecessary
 	mov bx, 0 			;ES:BX = 70h:0h address to load IBMBIO.COM
 
@@ -195,7 +195,7 @@ print_msg:
 
 read_root_dir_into_memory:
 	mov ax, 50h		;root dir should be loaded at 0h:0500h
-	mov es, ax		;this is DOS data area location
+	mov es, ax		;this is DOS reserved communication area
 					;booting process will be failure
 					;if load root dir into another location
 					;ES:BX - buffer for load root dir
