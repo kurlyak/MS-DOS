@@ -2,7 +2,7 @@
 
 MS-DOS 2.0 source code.
 
-<img src="https://github.com/kurlyak/MS-DOS-2.0/blob/main/pics/MS-DOS-2.0-Olivetti.png" alt="MS-DOS 2.0 Olivetti" width=600 />
+<img src="https://github.com/kurlyak/MS-DOS-reverse-engineering/blob/main/pics/MS-DOS-2.0-Olivetti.png" alt="MS-DOS 2.0 Olivetti" width=600 />
 
 https://github.com/microsoft/MS-DOS
 
